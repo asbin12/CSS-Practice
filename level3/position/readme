@@ -1,0 +1,15 @@
+position:
+1.static default position (trbt zindex have no effect)
+2.relative element is relative to itself (trbt zindex have effect) it means it will change its position acoording to its own existing position.
+3.absolute:positioned relative to its closet positioned(here it mean it should not be static other position it can be) ancestor.(removed from the flow)
+4.fixed:positioned relative to broswer(removed from flow
+
+)
+5.sticky:based on user scroll position
+
+tbrt means top right bottom left;  
+when you give position from top it will go towards its bottom and it from left it will move to right
+
+zindex: when there are many boxes and when its overlapping the box which has come last will overlap 1st one and come over that box
+
+in background-size if we use cover it will take all the space of that particular box or whole body without leaving any empty space

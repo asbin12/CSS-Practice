@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+/*
+for position example
+ .box1{
+    position: static;
+    background-color: red;
+}
+
+.box2{
+    position: relative;
+    top:20px;
+    left:10px;
+    z-index:1;
+    background-color: green;
+}
+.box3{
+    position: absolute;
+    top:500px;
+    left: 20px;
+}
+.box3{
+    position: sticky;
+    top:0px;
+    left: 20px;
+}
+
+.box4{
+    background-color: brown;
+    position:fixed;
+    right:10px;
+    bottom:0;
+    top:50px;
+    width:100vw;
+    z-index: -3;
+} */
+
+
+/* background image and size(cover/contain/auto)*/
+.box1{
+    background-image:url('deer.jpg');
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: auto; */
+}

@@ -1,0 +1,45 @@
+/* example of %
+.box1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.box2{
+    height: 50px;
+    width:30%;
+    background-color: yellow;
+    margin-left: 10%;
+} */
+
+/* em example
+.box1{
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    font-size:10px ;
+}
+.box2{
+    height: 50px;
+    width:30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width:5em;
+} */
+
+/* rem(root em)
+.box1{
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    font-size:10px ;
+}
+.box2{
+    height: 50px;
+    width:30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    width:5rem;
+} */
+

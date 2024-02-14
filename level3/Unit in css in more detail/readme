@@ -1,0 +1,15 @@
+unit in css
+1.percentage(%):
+to define a size as relative to an element's parent it means if there is div inside another div and we give certain percentage in that div than it will take percentage according to the width of its parent div.
+ 
+2 em(value according to parents class eg:if box1 have font size of 10px and font size of box2 is 2em than it will take size according to its parent but in according to number that comes with em in this case its given 2 that means 20pixel will be the font size of box1  ) :
+to define a size as relative to an element's parent it means if there is div inside another div and we give certain px in that div than it will take em according to the width of its parent div 
+
+in the code where we give width of 5em it looks to font size of its class rather than parent class it means here parent's font size is 10px and child font size is 2em this means 2 times of parent font size and width will be 2em*5em where 2em means 20pixel and its 5 times is 100 so width will be 100px
+
+3./* rem(root em) this will take size according to document size it means in body tag default font size will be 16px and if you give width:5rem; then it will be 16*5 and width will be according to that*/
+
+4.vh:relative to 1% viewport(it means its the browser which we can see on screen ) height and sets height according to the size of browser height
+
+5.vw:relative to 1% viewport width
+(it means its the browser which we can see on screen ) width and sets height according to the size of browser width

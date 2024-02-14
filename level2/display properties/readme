@@ -1,0 +1,22 @@
+1. <!-- block element and we change the block element into inline by coding it as display:inline; and to make inline element simply make it display as block-->
+
+2. when we change the block level into display inline there is 1 draw back thar margin from top and bottom will not be applied
+
+3. inline element ma hamiley margin padding diye ni support gardaina ra content ko lagi diyeko hight width ni support gardaina jati content ho teti matra linxa.
+
+4.display none means removing that from flow of document without leaving any space and similar to this is one property called
+->visibility:hidden;
+but in visibility:none; there is spaced reserved for that but in display none there are no any space left.
+
+5./\* alpha channel
+rgba:same and a means alpha channel it means it will decide opacity which means visibility and a range from (0-1)
+
+comment out code for inline
+div{
+width:100px;
+height: 100px;
+margin:25px;
+padding: 25px;
+display: inline;
+
+}

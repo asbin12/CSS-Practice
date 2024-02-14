@@ -1,0 +1,60 @@
+*{
+    /* margin-left:225px;
+    margin-top:80px; */
+    background-color: aqua;
+}
+.container{
+    border:2px solid red;
+    background-color: aliceblue;
+    height:325px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 200px auto;
+ 
+}
+.RL{
+    background-color: rgb(255,114,118);
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    animation: RedLight 2s ease-in 4s infinite normal;
+    /* margin:4px 40px; */
+}
+.YL{
+    background-color: rgb(255,253,141);
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    animation: YellowLight 2s ease-in 4s infinite normal;
+
+    /* margin:4px 40px; */
+}
+.GL{
+    background-color: #82d682;
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    animation: GreenLight 3s ease-in 5s infinite normal;
+
+    /* margin:4px 40px; */
+}
+
+@keyframes RedLight {
+    from{animation-duration:0s; background-color: rgb(255,114,118);}
+    to{animation-duration:2s; background-color: red;}
+    
+}
+@keyframes YellowLight {
+    from{animation-duration:2s; background-color: rgb(255,253,141);}
+    to{animation-duration:4s;background-color: yellOW;}
+    
+}
+@keyframes GreenLight {
+    from{ animation-duration:4s; background-color:  #82d682;}
+    to{animation-duration:6s; background-color: green;}
+    
+}

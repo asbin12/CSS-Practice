@@ -1,0 +1,89 @@
+/* css transition
+div{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+    border:2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+    transition: all 2s ease-in 1s;
+
+}
+div:hover{
+    background-color: red;
+    color:white;
+    font-size: 20px;
+}
+div:active{
+    background-color: pink;
+}
+*/
+
+
+/* css transform */
+
+div{
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+    border:2px solid black;
+   position:absolute;
+   top:100px;
+   left:100px; 
+    /* transform: rotate(360deg); 
+     transition: all 2s ease-in 1s;
+ transition: all 2s ease-in ;*/
+   animation-name:colorAnimate;
+   animation-duration: 1s;
+   animation-duration: 0.25s;
+   animation-duration: 3s;
+   /* animation-timing-function:ease-in ; */
+   animation-delay: 0s;
+   animation-iteration-count: 5;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+   animation-direction: alternate;
+   animation-direction: alternate-reverse;
+   animation-direction: reverse;
+   animation: colorAnimate 2s ease-in 3s infinite normal;
+
+    
+}
+
+@keyframes colorAnimate{
+    /* from{background-color: aqua;color: yellow;}
+    to{background-color: red;color:white;}
+    from{left: 0px;}
+    to{left: 200px;} */
+    0%{
+        background-color: aqua;
+        color: yellow;
+        left:0px;
+    }
+    50%{
+        background-color: blue;
+        color: antiquewhite;
+    }
+    100%{
+        background-color: red;
+        color:brown;
+        left:200px;
+    }
+}
+
+
+
+div:hover{
+    /* transform: scale(2,2);
+    transform: rotate(360deg);
+    transform: translateX(-200px);
+    transform: translate(200px);
+    transform: translateY(-200px);
+    transform: translate(200px,300px);
+    transform: skew(90deg); */
+
+}

@@ -1,0 +1,13 @@
+flexbox:flexible box layout
+It is a one-dimensional layout method for arranging items in rows or column
+
+flex model
+
+when we use display:flex that will become flex container
+
+
+flexbox direction:-
+flexbox-direction:row(default)
+flexbox-direction:row-reverse;
+flexbox-direction:column;
+flexbox-direction:column-reverse;

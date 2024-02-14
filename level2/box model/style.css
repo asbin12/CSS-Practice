@@ -1,0 +1,23 @@
+/* *{
+    margin:10px;
+} */
+div{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    padding:1px 2px 3px 4px;
+    margin: 50px;
+    /* if we give single value in padding than it will be applied in all the direction and if we give individual value it will be treated by top right bottom left  and same for padding to it means it will follow clockwise*/
+    /* border-radius: 10px; */
+
+}
+/* h1{
+    height: 180px;
+    width: 200px;
+    background-color: wheat;
+    border: 3px dashed black;
+    text-align: center;
+} */

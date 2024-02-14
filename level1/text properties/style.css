@@ -1,0 +1,88 @@
+/* text properties=text align 
+.alignExam{
+    text-align: center;
+    text-align: start;
+}
+text align=left/right/center and new feature are added like start,end for general coding language starts=left and ends means right but not for all but for many
+
+.myHeading{
+    text-align: center;
+    text-align: end;
+}
+
+alignment are change according to parent class rather than of whole page
+*/
+
+/* text-decoration =underline,overline,line-through 
+.myHeading{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration:  red  line-through;
+}
+.alink {
+    text-decoration: none;
+}
+*/
+
+/* font-weight normal/bold/bolder/lighter   in numbers also like 100-900
+
+.myHeading1{
+    font-weight: normal;
+    font-weight: 100;
+}
+.myHeading2{
+    font-weight:bold ;
+    font-weight:250 ;
+}
+.myHeading3{
+    font-weight:bolder ;
+    font-weight:400 ;
+}
+.myHeading4{
+    font-weight:lighter ;
+    font-weight:900 ;
+}
+*/
+
+/* font family 
+.alignExam{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alignExam1{
+    font-family: 'Times New Roman', Times, serif;
+}
+*/
+
+/* font-size */
+/* units in css 1.absolute=px,cm,inch,mm 2.relative 
+
+.para1{
+    font-size: 25px;
+}
+ .para3{
+    font-size: 10px;
+ }
+ */
+
+ /* line-height 
+ .para1{
+    font-size: 18px;
+    line-height: 20px;
+    line-height: normal;
+ }
+ */
+
+ /* text transform:uppercase/lowercase/capitalize/none 
+ .para1{
+    font-size: 18px;
+    line-height: 20px;
+    line-height: normal;
+    text-transform: uppercase ;
+    text-transform: lowercase ;
+    text-transform: capitalize ;
+    text-transform: none ;
+ }
+ */
+
+
+

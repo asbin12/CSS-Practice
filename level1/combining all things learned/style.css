@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+}
+.heading1{
+    background-color:rgb(144, 223, 223);
+    color:rgb(182, 131, 131);
+    text-align:center;
+    text-transform: capitalize;
+    font-family: Arial;
+    font-weight: bolder;
+}
+.para1{
+    text-align: start;
+    background-color: rgb(230, 208, 179);
+    color:rgb(200, 185, 102);
+    line-height:18px;
+    font-weight: normal;
+    font-size: 18px;
+}

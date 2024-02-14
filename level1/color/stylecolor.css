@@ -1,0 +1,46 @@
+/*"color property: for foreground:color,for=background:background" 
+h1{
+    color:green;
+}
+p{
+    color:red
+}
+button{
+    color:brown;
+    background-color: green;
+}
+body{
+     background-color: grey; color by name
+     background-color: rgb(255,0,0); color by rgb
+     background-color: rgb(255,255 ,0); 
+     background-color: #ff0000; color using hex 
+    background-color: #ffff00;
+} */
+
+
+/* selectors */
+/* universal selectors*/
+*{
+    color:pink;
+}
+ 
+
+/* element selector 
+h1{
+    color:green;
+}
+button{
+    color:brown;
+}
+*/
+
+/* id selector 
+#one{
+    color:black;
+}
+*/
+
+/* class selector */
+.one{
+    color:brown;
+}
